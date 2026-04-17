@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: https://l1k4root.github.io
+Sitemap: https://l1k4root.github.io/sitemap.xml

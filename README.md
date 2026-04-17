@@ -20,6 +20,7 @@ Portfolio estático con contenido desacoplado, generado desde `src/data/site.jso
 │   └── repo-audit.md
 ├── public/
 │   ├── favicon.ico
+│   ├── favicon.svg
 │   ├── scripts/site.js
 │   └── styles/global.css
 ├── scripts/
@@ -43,13 +44,21 @@ Requisitos:
 
 - Node.js 20 o superior.
 
-Comandos:
+No necesitas instalar dependencias externas para verlo.
+
+Pasos:
 
 ```bash
 npm run dev
 ```
 
-Esto:
+Luego abre:
+
+```text
+http://localhost:4321
+```
+
+`npm run dev`:
 
 - genera `dist/`
 - levanta un servidor local en `http://localhost:4321`
@@ -114,4 +123,5 @@ Usa:
 
 - Auditoría técnica actual: [docs/repo-audit.md](/Users/cfs-andres/Workspace/Proyectos/Portfolio/docs/repo-audit.md)
 - Auditoría crítica del HTML final: [docs/content-audit.md](/Users/cfs-andres/Workspace/Proyectos/Portfolio/docs/content-audit.md)
+- Métricas estándar recomendadas: [docs/metrics-standards.md](/Users/cfs-andres/Workspace/Proyectos/Portfolio/docs/metrics-standards.md)
 - Arquitectura, rutas y plan de migración: [docs/migration-plan.md](/Users/cfs-andres/Workspace/Proyectos/Portfolio/docs/migration-plan.md)

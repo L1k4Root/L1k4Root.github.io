@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Andrés Pérez — Backend Developer",
-    "description": "Portfolio técnico enfocado en backend, cloud e integración de sistemas, construido como sitio estático mantenible y fácil de actualizar.",
+    "title": "Andrés Pérez — Backend, Automation & AI Systems",
+    "description": "Portfolio técnico enfocado en backend, automatización, cloud e IA aplicada, construido como sitio estático mantenible y fácil de actualizar.",
     "lang": "es",
     "url": "https://l1k4root.github.io",
     "lastModified": "2026-04-17",
@@ -18,7 +18,7 @@
   "hero": {
     "availability": "Disponible para nuevos proyectos",
     "titleLines": ["Backend", "Developer", "& Cloud Systems"],
-    "description": "Especializado en APIs, infraestructura cloud e integración de servicios para entornos con altos requisitos de trazabilidad, seguridad y mantenimiento sostenible.",
+    "description": "Especializado en APIs, automatización cloud e integración de servicios para entornos con altos requisitos de trazabilidad, seguridad y mantenimiento sostenible. Extiendo ese enfoque a sistemas asistidos por IA cuando aportan valor operativo real.",
     "sideNotes": [
       "Las Condes, Santiago — Chile",
       "Español nativo · Inglés avanzado"
@@ -26,10 +26,10 @@
     "email": "andres.antonio2000@hotmail.com"
   },
   "metrics": [
-    { "value": "IBM", "label": "Feb — Sep 2025" },
-    { "value": "BdC", "label": "Banco de Chile · 2026" },
-    { "value": "-40%", "label": "Tiempo de despliegue" },
-    { "value": "0", "label": "Errores de configuración reportados" }
+    { "value": "DORA", "label": "Lead time · frequency · failure rate · restore" },
+    { "value": "SLOs", "label": "Availability · latency · error budget" },
+    { "value": "Evals", "label": "Precision · recall · F1" },
+    { "value": "AI Ops", "label": "Latency · cost · quality" }
   ],
   "about": {
     "number": "01",
@@ -41,8 +41,8 @@
     ],
     "paragraphs": [
       "Ingeniero en Informática con experiencia en banca, seguros, cloud e integraciones backend. Mi foco es construir software que sea correcto, trazable y fácil de mantener por otros equipos.",
-      "He trabajado con APIs, documentación técnica, automatización de infraestructura y prácticas de calidad orientadas a producción en contextos donde los cambios deben ser explícitos y auditables.",
-      "Busco proyectos donde backend, seguridad, observabilidad y claridad operativa importen de verdad, no sólo en la descripción del cargo."
+      "He trabajado con APIs, documentación técnica, automatización de infraestructura y prácticas de calidad orientadas a producción en contextos donde los cambios deben ser explícitos, auditables y sostenibles.",
+      "Hoy me interesa especialmente la intersección entre backend, automatización e IA aplicada: flujos asistidos por modelos, evaluaciones, optimización de latencia y uso responsable de ML cuando mejora una operación real."
     ],
     "quote": [
       "El software crítico no se sostiene",
@@ -84,7 +84,7 @@
         "location": "Santiago, Chile",
         "badge": "Enterprise · Cloud",
         "role": "Backend Developer Intern",
-        "description": "Trabajo en APIs backend y automatización de infraestructura cloud, con procesos formales de seguridad, revisión y despliegue.",
+        "description": "Trabajo en APIs backend y automatización de infraestructura cloud dentro de un entorno enterprise, con procesos formales de seguridad, revisión y despliegue.",
         "bullets": [
           "Desarrollo de APIs en NestJS con TypeScript, validación vía DTOs y documentación técnica para integración con servicios cloud.",
           "Implementación de módulos Terraform para aprovisionamiento de infraestructura AWS y configuración reutilizable.",
@@ -98,7 +98,7 @@
         "location": "Santiago, Chile",
         "badge": "Producto real",
         "role": "Developer",
-        "description": "Trabajo en backend, integraciones y mejoras operativas orientadas a rendimiento, publicación y soporte de negocio.",
+        "description": "Trabajo en backend, integraciones y mejoras operativas orientadas a rendimiento, publicación y soporte de negocio en un entorno de producto real.",
         "bullets": [
           "Implementación de funcionalidades backend e integraciones con pasarelas de pago y APIs de terceros.",
           "Script de optimización de imágenes para reducir peso de assets y mejorar tiempos de carga.",
@@ -135,7 +135,7 @@
         "links": [
           {
             "label": "Repositorio",
-            "href": "https://github.com/l1k4skr/medical-equipment-management",
+            "href": "https://github.com/L1k4Root/medical-equipment-management",
             "external": true
           }
         ]
@@ -149,7 +149,7 @@
         "links": [
           {
             "label": "Repositorio",
-            "href": "https://github.com/l1k4skr/image-optimizer",
+            "href": "https://github.com/L1k4Root/image-optimizer",
             "external": true
           }
         ]
@@ -209,12 +209,12 @@
         ]
       },
       {
-        "category": "En expansión",
+        "category": "Automatización & IA aplicada",
         "items": [
-          { "label": "Microservicios avanzados", "primary": true },
-          { "label": "System design", "primary": true },
-          { "label": "OpenAI API" },
-          { "label": "Data workflows con Python" }
+          { "label": "Workflows asistidos por LLM", "primary": true },
+          { "label": "Evaluaciones de calidad y comportamiento", "primary": true },
+          { "label": "Optimización de latencia y costo", "primary": true },
+          { "label": "Automatización y data workflows con Python" }
         ]
       }
     ],
@@ -274,14 +274,9 @@
       },
       {
         "type": "GitHub",
-        "value": "l1k4skr",
-        "href": "https://github.com/l1k4skr",
+        "value": "L1k4Root",
+        "href": "https://github.com/L1k4Root",
         "external": true
-      },
-      {
-        "type": "Teléfono",
-        "value": "+56 9 3245 4765",
-        "href": "tel:+56932454765"
       }
     ],
     "availabilityCard": [
@@ -289,7 +284,7 @@
       { "key": "Modalidad", "value": "Remoto · Híbrido · Presencial" },
       { "key": "Ubicación", "value": "Las Condes, Santiago" },
       { "key": "Idiomas", "value": "Español · Inglés avanzado" },
-      { "key": "Foco", "value": "Backend · Cloud · Enterprise", "tone": "gold" },
+      { "key": "Foco", "value": "Backend · Automation · AI Systems", "tone": "gold" },
       { "key": "Coordinación", "value": "Correo o LinkedIn" }
     ]
   },
