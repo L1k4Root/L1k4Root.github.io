@@ -1,0 +1,300 @@
+{
+  "site": {
+    "title": "Andrés Pérez — Backend Developer",
+    "description": "Portfolio técnico enfocado en backend, cloud e integración de sistemas, construido como sitio estático mantenible y fácil de actualizar.",
+    "lang": "es",
+    "url": "https://l1k4root.github.io",
+    "lastModified": "2026-04-17",
+    "author": "Andrés Pérez Araya",
+    "location": "Las Condes, Santiago, Chile"
+  },
+  "navigation": [
+    { "label": "Perfil", "href": "#about" },
+    { "label": "Experiencia", "href": "#experience" },
+    { "label": "Proyectos", "href": "#projects" },
+    { "label": "Stack", "href": "#stack" },
+    { "label": "Contacto", "href": "#contact", "isCta": true }
+  ],
+  "hero": {
+    "availability": "Disponible para nuevos proyectos",
+    "titleLines": ["Backend", "Developer", "& Cloud Systems"],
+    "description": "Especializado en APIs, infraestructura cloud e integración de servicios para entornos con altos requisitos de trazabilidad, seguridad y mantenimiento sostenible.",
+    "sideNotes": [
+      "Las Condes, Santiago — Chile",
+      "Español nativo · Inglés avanzado"
+    ],
+    "email": "andres.antonio2000@hotmail.com"
+  },
+  "metrics": [
+    { "value": "IBM", "label": "Feb — Sep 2025" },
+    { "value": "BdC", "label": "Banco de Chile · 2026" },
+    { "value": "-40%", "label": "Tiempo de despliegue" },
+    { "value": "0", "label": "Errores de configuración reportados" }
+  ],
+  "about": {
+    "number": "01",
+    "title": "Perfil profesional",
+    "headingLines": [
+      "Sistemas que sostienen",
+      "operaciones sensibles.",
+      "Sin fragilidad."
+    ],
+    "paragraphs": [
+      "Ingeniero en Informática con experiencia en banca, seguros, cloud e integraciones backend. Mi foco es construir software que sea correcto, trazable y fácil de mantener por otros equipos.",
+      "He trabajado con APIs, documentación técnica, automatización de infraestructura y prácticas de calidad orientadas a producción en contextos donde los cambios deben ser explícitos y auditables.",
+      "Busco proyectos donde backend, seguridad, observabilidad y claridad operativa importen de verdad, no sólo en la descripción del cargo."
+    ],
+    "quote": [
+      "El software crítico no se sostiene",
+      "con promesas, sino con decisiones",
+      "técnicas defendibles."
+    ]
+  },
+  "skills": [
+    { "name": "NestJS / TypeScript", "label": "Producción", "width": 88 },
+    { "name": "PostgreSQL", "label": "Producción", "width": 84 },
+    { "name": "AWS (EC2, RDS, VPC, API Gateway)", "label": "Uso frecuente", "width": 80 },
+    { "name": "Terraform (IaC)", "label": "Uso frecuente", "width": 78 },
+    { "name": "Docker / GitHub Actions", "label": "Uso frecuente", "width": 76 },
+    { "name": "Python (backend / scripts)", "label": "Uso frecuente", "width": 74 },
+    { "name": ".NET / Spring Boot", "label": "Exposición práctica", "width": 64 },
+    { "name": "Testing y análisis de calidad", "label": "Uso frecuente", "width": 72 }
+  ],
+  "experience": {
+    "number": "02",
+    "title": "Experiencia",
+    "items": [
+      {
+        "company": "Banco de Chile",
+        "period": "Ene 2026 — Mar 2026",
+        "location": "Santiago, Chile",
+        "badge": "Enterprise · Banca",
+        "role": "Backend Developer — Área Seguros",
+        "description": "Participación técnica en un equipo de banca y seguros con foco en trazabilidad, control de cambios y documentación de servicios en un entorno regulado.",
+        "bullets": [
+          "Documentación técnica de microservicios y flujos de integración bajo criterios de trazabilidad y gestión de cambios.",
+          "Análisis de integraciones entre plataformas internas y servicios de terceros con foco en seguridad y confidencialidad.",
+          "Exposición directa a ecosistemas enterprise con .NET, Spring y Spring Boot en contextos de alta exigencia."
+        ],
+        "tags": [".NET", "Spring Boot", "Microservicios", "Control de cambios"]
+      },
+      {
+        "company": "IBM Chile",
+        "period": "Feb 2025 — Sep 2025",
+        "location": "Santiago, Chile",
+        "badge": "Enterprise · Cloud",
+        "role": "Backend Developer Intern",
+        "description": "Trabajo en APIs backend y automatización de infraestructura cloud, con procesos formales de seguridad, revisión y despliegue.",
+        "bullets": [
+          "Desarrollo de APIs en NestJS con TypeScript, validación vía DTOs y documentación técnica para integración con servicios cloud.",
+          "Implementación de módulos Terraform para aprovisionamiento de infraestructura AWS y configuración reutilizable.",
+          "Orquestación y revisión de componentes cloud con foco en calidad, seguridad y repetibilidad del despliegue."
+        ],
+        "tags": ["NestJS", "TypeScript", "Terraform", "AWS"]
+      },
+      {
+        "company": "ChileFashionStudios",
+        "period": "2021 — 2024",
+        "location": "Santiago, Chile",
+        "badge": "Producto real",
+        "role": "Developer",
+        "description": "Trabajo en backend, integraciones y mejoras operativas orientadas a rendimiento, publicación y soporte de negocio.",
+        "bullets": [
+          "Implementación de funcionalidades backend e integraciones con pasarelas de pago y APIs de terceros.",
+          "Script de optimización de imágenes para reducir peso de assets y mejorar tiempos de carga.",
+          "Mejoras de SEO técnico y soporte a flujos de publicación en entorno productivo."
+        ],
+        "tags": ["Python", "Integraciones", "SEO técnico", "Rendimiento"]
+      }
+    ]
+  },
+  "projects": {
+    "number": "03",
+    "title": "Proyectos técnicos",
+    "items": [
+      {
+        "number": "001 · IBM",
+        "name": "Pipeline Terraform RDS–Nexus",
+        "description": "Infraestructura reproducible para conectar PostgreSQL en RDS con servicios desplegados sobre EC2, diseñada para reducir fricción operativa y repetir despliegues con menos intervención manual.",
+        "tags": ["Terraform", "AWS RDS", "EC2", "PostgreSQL", "IaC"],
+        "metric": "Infraestructura repetible con menor tiempo de entrega"
+      },
+      {
+        "number": "002 · IBM",
+        "name": "Aprovisionamiento SonarQube en AWS",
+        "description": "Módulo de infraestructura para desplegar SonarQube en AWS con una base orientada a CI/CD, control de calidad y documentación operativa.",
+        "tags": ["Terraform", "SonarQube", "AWS EC2", "CI/CD", "DevOps"],
+        "metric": "Base reutilizable para análisis de calidad en pipelines"
+      },
+      {
+        "number": "003",
+        "name": "Plataforma Médica — Django + PostgreSQL",
+        "description": "Aplicación full stack para registro y seguimiento de dispositivos médicos, con autenticación, validación y trazabilidad de operaciones.",
+        "tags": ["Django", "PostgreSQL", "Python", "REST", "Auth"],
+        "metric": "Sistema de gestión médica con trazabilidad operativa",
+        "links": [
+          {
+            "label": "Repositorio",
+            "href": "https://github.com/l1k4skr/medical-equipment-management",
+            "external": true
+          }
+        ]
+      },
+      {
+        "number": "004",
+        "name": "Optimización de imágenes para e-commerce",
+        "description": "Script en Python para reducir peso de assets gráficos y mejorar tiempos de carga en un flujo de publicación orientado a e-commerce.",
+        "tags": ["Python", "Automatización", "Rendimiento", "Assets"],
+        "metric": "Reducción de peso de imágenes y mejora de carga",
+        "links": [
+          {
+            "label": "Repositorio",
+            "href": "https://github.com/l1k4skr/image-optimizer",
+            "external": true
+          }
+        ]
+      }
+    ]
+  },
+  "stack": {
+    "number": "04",
+    "title": "Stack técnico",
+    "groups": [
+      {
+        "category": "Backend",
+        "items": [
+          { "label": "NestJS / TypeScript", "primary": true },
+          { "label": "Express / Node.js", "primary": true },
+          { "label": "Python / Django", "primary": true },
+          { "label": ".NET (C#)" },
+          { "label": "Spring / Spring Boot" }
+        ]
+      },
+      {
+        "category": "Datos & Cloud",
+        "items": [
+          { "label": "PostgreSQL", "primary": true },
+          { "label": "AWS (EC2, RDS, VPC, API Gateway)", "primary": true },
+          { "label": "Terraform (IaC)", "primary": true },
+          { "label": "MongoDB" },
+          { "label": "Firebase / Firestore" }
+        ]
+      },
+      {
+        "category": "Arquitectura & Calidad",
+        "items": [
+          { "label": "Diseño modular y contratos explícitos", "primary": true },
+          { "label": "Docker / GitHub Actions", "primary": true },
+          { "label": "Testing de servicios y validación", "primary": true },
+          { "label": "SonarQube" },
+          { "label": "Swagger / OpenAPI" }
+        ]
+      },
+      {
+        "category": "Seguridad & Auth",
+        "items": [
+          { "label": "JWT / OAuth2", "primary": true },
+          { "label": "AWS Secrets Manager", "primary": true },
+          { "label": "PSIRT guidelines" },
+          { "label": "Guards / Interceptors NestJS" }
+        ]
+      },
+      {
+        "category": "Metodologías",
+        "items": [
+          { "label": "Agile / Scrum", "primary": true },
+          { "label": "Documentación técnica", "primary": true },
+          { "label": "Git + code review" },
+          { "label": "Linux / CLI" }
+        ]
+      },
+      {
+        "category": "En expansión",
+        "items": [
+          { "label": "Microservicios avanzados", "primary": true },
+          { "label": "System design", "primary": true },
+          { "label": "OpenAI API" },
+          { "label": "Data workflows con Python" }
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "icon": "IBM",
+        "name": "Principios de Ciberseguridad — con honores",
+        "issuer": "IBM · Kali Linux · Hardening · Administración de sistemas"
+      },
+      {
+        "icon": "IBM",
+        "name": "Enterprise Design Thinking Practitioner",
+        "issuer": "IBM · Innovación · Trabajo colaborativo"
+      },
+      {
+        "icon": "IBM",
+        "name": "Ingeniería de Aplicaciones — Junior",
+        "issuer": "IBM · Git · Linux · DevOps practices"
+      },
+      {
+        "icon": "IBM",
+        "name": "Ciencia de Datos — Junior",
+        "issuer": "IBM · NumPy · Pandas · SQL · Visualización"
+      },
+      {
+        "icon": "IBM",
+        "name": "Introducción a la Inteligencia Artificial",
+        "issuer": "IBM · Fundamentos de IA"
+      },
+      {
+        "icon": "UNAB",
+        "name": "Ingeniería en Computación e Informática",
+        "issuer": "Universidad Andrés Bello · Titulado 2024"
+      }
+    ]
+  },
+  "contact": {
+    "number": "05",
+    "title": "Contacto",
+    "headingLines": [
+      "¿Tienes un sistema",
+      "que debe funcionar",
+      "siempre?"
+    ],
+    "description": "Disponible para proyectos de backend, integraciones, automatización cloud y trabajo técnico donde la claridad operativa importe tanto como el código.",
+    "methods": [
+      {
+        "type": "Email",
+        "value": "andres.antonio2000@hotmail.com",
+        "href": "mailto:andres.antonio2000@hotmail.com"
+      },
+      {
+        "type": "LinkedIn",
+        "value": "andres-perez9694",
+        "href": "https://linkedin.com/in/andres-perez9694",
+        "external": true
+      },
+      {
+        "type": "GitHub",
+        "value": "l1k4skr",
+        "href": "https://github.com/l1k4skr",
+        "external": true
+      },
+      {
+        "type": "Teléfono",
+        "value": "+56 9 3245 4765",
+        "href": "tel:+56932454765"
+      }
+    ],
+    "availabilityCard": [
+      { "key": "Estado", "value": "Disponible", "tone": "green" },
+      { "key": "Modalidad", "value": "Remoto · Híbrido · Presencial" },
+      { "key": "Ubicación", "value": "Las Condes, Santiago" },
+      { "key": "Idiomas", "value": "Español · Inglés avanzado" },
+      { "key": "Foco", "value": "Backend · Cloud · Enterprise", "tone": "gold" },
+      { "key": "Coordinación", "value": "Correo o LinkedIn" }
+    ]
+  },
+  "footer": {
+    "copy": "© 2026 Andrés Pérez Araya — Ingeniero en Informática — Santiago, Chile",
+    "backToTopLabel": "↑ Inicio"
+  }
+}
